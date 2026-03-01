@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Seat-Reservation-Service
+  datasource:
+    url: jdbc:mysql://localhost:3306/movie_app
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9292

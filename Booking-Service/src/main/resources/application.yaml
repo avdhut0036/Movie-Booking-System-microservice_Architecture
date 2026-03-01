@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Ticket-Booking-Service
+  datasource:
+    url: jdbc:mysql://localhost:3306/movie_app
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9191
